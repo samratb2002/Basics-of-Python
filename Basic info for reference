@@ -1,0 +1,87 @@
+Python:
+
+Always typecast your input
+Default input is always string
+
+*List:
+ List can store multiple data types at a time.
+ List Function:
+ f1.extend( f2 ) - adds two lists
+ f1.insert( index, f1)- inserts an elements
+ f1.remove(value) - removes the element
+ f1.pop() - removes last element off the list
+ f1.count(value)- counter 
+ f1.reverse() - reverses the original order of the list
+ f2=f1.copy() - will copy one list to another
+
+
+*Tuple - can’t be changed once declared(same as list)
+ Use normal brackets not square brackets
+ ex_tuple = ( 4,5 ) 
+
+
+*Function:
+ Keyword - def
+ Example -def ex_func():
+ Every function needs to be called in order to be executed.
+
+
+*IF
+ or- || , and-&& , not()- negate 
+ Syntax-
+ if condition1 :
+ elif condition2:
+ else :
+
+
+*Dictionaries:
+ Can excess certain values by shortcuts or abbreviations
+  ex_dic={
+    “Jan” : “January” ,
+     “Feb” : “February”
+   }
+  print(ex_dic(get( “Jan” , “ Invalid “ )))   // used get() to avoid invalid  inputs
+
+
+*While:
+ Syntax:
+ while condition:
+ {}
+
+
+*For:
+ Syntax:
+ for variable in range( the range for loop):
+ {}
+
+
+*2D List:
+ ex_2D = [ [1,2,3] ,\ [4,5,6] , [7,8,9] , [0] ]
+ for row in ex_2D:
+     for col in row:
+         print(col)
+ OUTPUT: 
+ All elements one by one
+
+
+*Comments:
+ #anythinginsidethishashtagwillbeacomment 
+
+
+*Try/except :if user enters a wrong input
+  Syntax:
+  try:
+    #ifanyerroroccurshereexceptwillrun
+  except typeoferror:
+     #statements
+
+*Read files
+  If you open a file ,always close it.
+  file=open( “file.txt” , “ r ” ) #thiswillreadthefile
+  print( file.readable()) #readable()willgiveoutabooleanvalue
+  file.close()
+  readlines() - will convert each line to an index of an array 
+ 
+*Write files
+  file=open( “file.txt” , “ a ” ) #thiswillappend
+  file=open( “file.txt” , “ w ” ) #thiswilloverwrite
